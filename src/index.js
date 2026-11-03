@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 //import the default export from the greeting module
 //import the named exports from the helpers module
-
+import greeting from "./greeting";
+import {subHeader, organize} from "./helpers";
 import "./styles.css";
 
 function App() {
